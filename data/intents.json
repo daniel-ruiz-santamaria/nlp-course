@@ -1,0 +1,99 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hola",
+        "Hey",
+        "¿Como estas?",
+        "¿Hay alguien ahí?",
+        "Buenas",
+        "Buenos días"
+      ],
+      "responses": [
+        "Hola",
+        "Hola, gracias por saludar",
+        "Hola, ¿En que puedo ayudarte?",
+        "Hola, ¿Que puedo hacer por ti?"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Adios", "Hasta luego", "Bye Bye", "Chao"],
+      "responses": [
+        "Te veo despues, gracias",
+        "Que tengas un buen día",
+        "¡Adios! Espero verte pronto."
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Gracias", "Muchas gracias", "Me has ayudado", "gracias por ayudarme"],
+      "responses": ["Happy to help!", "Any time!", "My pleasure"]
+    },
+    {
+      "tag": "items",
+      "patterns": [
+        "¿Que articulos tienes?",
+        "¿Que vendes?",
+        "¿Que puedes venderme?",
+        "¿Que puedo comprar?"
+      ],
+      "responses": [
+        "Vendo cofe y té",
+        "Puedo vender cafe y té"
+      ]
+    },
+    {
+      "tag": "payments",
+      "patterns": [
+        "¿Que metodos de pago aceptas?",
+        "¿Aceptas tarjeta de credito?",
+        "¿Puedo pagar con tarjeta de credito?",
+        "¿Aceptas Visa?",
+        "¿Puedo pagar con Visa?",
+        "¿Aceptas Mastercar?",
+        "¿Puedo pagar con Mastercar?",
+        "¿Aceptas American Express?",
+        "¿Puedo pagar con American Express?",
+        "¿Aceptas Paypal?",
+        "¿Puedo pagar con Paypal?",
+        "¿Aceptas efectivo?",
+        "¿Aceptas dinero?",
+        "¿Aceptas cash?"
+      ],
+      "responses": [
+        "Solo acepto VISA, Mastercard y Paypal como metodos de pago",
+        "Acepto la mayoria de tarjetas de credito y Paypal"
+      ]
+    },
+    {
+      "tag": "delivery",
+      "patterns": [
+        "¿Cuanto tarda la entrega?",
+        "¿Cuanto tarda el envio entrega?",
+        "¿Cuando tendre mi pedido?"
+      ],
+      "responses": [
+        "La entrega tarda de 2 a 4 días",
+        "En 2 o 4 días, lo tienes en tu casa"
+      ]
+    },
+    {
+      "tag": "funny",
+      "patterns": [
+        "Chiste",
+        "Cuentame un chiste",
+        "¿Sabes algun chiste?"
+      ],
+      "responses": [
+        "¿Cuál es el último animal que subió al arca de Noé? El del-fin",
+        "Camarero, ese filete tiene muchos nervios. Pues normal, es la primera vez que se lo comen",
+        "¿Qué le dice una iguana a su hermana gemela? Somos iguanitas",
+        "Mamá, mamá, ¿sabías que Juana de Arco era drogadicta? La mamá le mire y le dice: ¿Pero qué dices? Eso no es cierto. Que sí, mamá, en el libro pone que murió por heroína",
+        "¿Cómo se llama el campeón de apnea japonés? Tokofondo, ¿y el subcampeón? Kasitoko.",
+        "Una mujer le dice a su marido: Cariño, ¿te gusta mi disfraz? Sí, mi amor, contesta el hombre, es un disfraz de vaca muy bonito. ¡Pero si voy disfrazada de dálmata!"
+      ]
+    }
+  ]
+}
